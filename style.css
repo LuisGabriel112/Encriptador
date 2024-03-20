@@ -124,3 +124,176 @@ body{
     left: 20px;
     color: #343A40;
 }
+
+@media only screen and (max-width: 1440px) {
+    #modal{
+        position: absolute;
+        width: 319px;
+        height: 786px;
+        top: 40px;
+        left: 850px;
+        background-color: #FFFFFF;
+        border-radius: 32px;
+    }
+
+    #muneco {
+        position: relative;
+        top: 170px;
+        left: 42px;
+        width: 237px;
+        height: 231px;
+    }
+
+    #modal h2 {
+        position: absolute;
+        bottom: 267px;
+        left: 51px;
+        color: #343A40;
+    }
+
+    body{
+        height: 105px;
+    }
+    
+    .disclamer {
+        position: absolute;
+        display: inline-flex;
+        width: hug(229px);
+        height: hug(18px);
+        top: 737px;
+        left: 240px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    #modal {
+        position: absolute;
+        width: 449px;
+        height: 278px;
+        top: 567px;
+        left: 186px;
+        background-color: #FFFFFF;
+        border-radius: 32px;
+    }
+
+    #modal h2 {
+        position: absolute;
+        bottom: 267px;
+        left: 26px;
+        color: #343A40;
+        font-size: 15px;
+    }
+
+    #muneco {
+        position: relative;
+        top: 262px;
+        left: 21px;
+        width: 100px;
+        height: 90px;
+    }
+
+    .disclamer{
+        top: 706px;
+    }
+
+    #btns{
+        top: 729px;    
+    }
+}
+
+@media only screen and (max-width: 768px){
+    #modal {
+        position: absolute;
+        width: 506px;
+        height: 223px;
+        top: 620px;
+        left: 168px;
+        background-color: #FFFFFF;
+        border-radius: 32px;
+    }
+    #modal h2 {
+        position: absolute;
+        bottom: 100px;
+        left: 141px;
+        color: #343A40;
+        font-size: 15px;
+    }
+    #muneco {
+        position: relative;
+        top: 4px;
+        left: 197px;
+        width: 100px;
+        height: 90px;
+    }
+    #texto {
+        position: absolute;
+        top: 191px;
+        left: 152px;
+        height: 420px;
+    }
+
+    #btns {
+        top: 729px;
+        display: flex;
+        left: 147px;
+        top: 57px;
+    }
+
+    .disclamer {
+        top: 36px;
+        left: 151px;
+    }
+
+}
+
+@media only screen and (max-width: 425px){
+    #btns {
+        display: flex;
+        left: 86px;
+        top: 57px;
+    }
+    .disclamer {
+        top: 36px;
+        left: 90px;
+    }
+    #texto2 {
+        background-color: #F3F5FC;
+        border: none;
+        font-size: 32px;
+        color: #0A3871;
+        line-height: 48px;
+        width: 548px;
+        height: 420px;
+        resize: none;
+    }
+    #logo {
+        height: 80px;
+        width: 80px;
+        position: absolute;
+        top: 20px;
+        left: 3px;
+    }
+    #modal {
+        position: absolute;
+        width: 506px;
+        height: 604px;
+        top: 620px;
+        left: 89px;
+        background-color: #FFFFFF;
+        border-radius: 32px;
+    }
+    #muneco {
+        position: relative;
+        top: 79px;
+        left: 107px;
+        width: 250px;
+        height: 200px;
+    }
+    #modal h2 {
+        position: absolute;
+        bottom: 262px;
+        left: 99px;
+        color: #343A40;
+        font-size: 20px;
+    }
+}
